@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 import { Provider } from 'react-redux'
 import { Router } from 'react-router'
 
-import 'SRC/assets/style/antd.hcss'
-import 'SRC/assets/style/font-awesome.hcss'
-import 'SRC/assets/style/style.hcss'
+import 'SRC/assets/style/font-awesome.css'
+import 'SRC/assets/style/style.css'
 
 import createRootRoutes from 'SRC/routes.js'
 

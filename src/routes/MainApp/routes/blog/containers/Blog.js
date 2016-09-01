@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import CSSModules from 'react-css-modules'
 
-import styles from './style.css'
+import styles from './style.hcss'
 
 class Blog extends Component {
   render() {

@@ -12,8 +12,6 @@ export default (store) => (
       }, 'Blog')
     },
     childRoutes: [
-      require('./routes/user-profile/routes.js').default(store),
-      require('./routes/push-promotion/routes.js').default(store)
     ]
   }
 )

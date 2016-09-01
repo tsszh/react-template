@@ -62,12 +62,12 @@ module.exports = {
         loader: "url-loader?mimetype=image/png"
       },
       {
-        test: /\.hcss$/,
+        test: /\.css$/,
         loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
         // loader: 'style!css?sourceMap!autoprefixer-loader',
       },
       {
-        test: /\.css$/,
+        test: /\.hcss$/,
         // loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]')
         loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
       }

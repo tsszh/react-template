@@ -74,13 +74,13 @@ module.exports = {
       include: src
     },
     {
-      test: /\.hcss$/,
+      test: /\.css$/,
       // loader: "style-loader!css-loader"
       loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
       // loader: 'style!css?sourceMap!autoprefixer-loader',
     },
     {
-      test: /\.css$/,
+      test: /\.hcss$/,
       // loader: ExtractTextPlugin.extract('style', 'css?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]')
       loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
     },

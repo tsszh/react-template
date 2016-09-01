@@ -6,7 +6,5 @@
     }
   },
   "plugins": [
-    "lodash",
-    ["antd", { "style": "css" }]
   ]
 }

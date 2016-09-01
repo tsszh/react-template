@@ -1,13 +1,19 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router'
 
 import CSSModules from 'react-css-modules'
-import styles from './base.css'
+import styles from './base.hcss'
 
 class Base extends Component {
   render() {
     return (
       <div>
         <div>Base Header</div>
+        <div>
+          <Link to="/home">Home</Link>
+          <Link to="/blog">Blog</Link>
+        </div>
+        <hr />
         <div>
           {this.props.children}
         </div>
